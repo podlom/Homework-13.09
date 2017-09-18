@@ -18,6 +18,14 @@ $arr = [
     9
 ];
 
-foreach ($arr as $value){
-    if ($value)
+$sep = '';
+foreach ($arr as $value) {
+    echo $value;
+    
+    if ($value % 3 == 0) {
+        $sep = '<br>';
+    } else {
+        $sep = ', ';
+    }
+    echo $sep;
 }
