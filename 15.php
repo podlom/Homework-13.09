@@ -19,7 +19,7 @@ $arr = [
 $count = 0;
 
 foreach ($arr as $value){
-    $count = count($arr);
+    $count ++;
 }
 
 echo $count;
