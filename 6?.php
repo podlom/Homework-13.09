@@ -12,10 +12,9 @@
 $arr = array('green'=>'зеленый', 'red'=>'красный','blue'=>'голубой');
 
 foreach ($arr as $key => $value) {
-    $en = array($key) . '<br>';
-    print_r($en);
+    echo $key . '<br>';
 }
+
 foreach ($arr as $key => $value) {
     echo $value . '<br>';
-
 }
