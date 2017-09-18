@@ -11,7 +11,7 @@ $result = 0;
 $square = 0;
 
 foreach ($arr as $key){
-    $square = $key * $key;
+    $square = pow($key, 2);
     $result += $square;
 }
 
