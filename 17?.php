@@ -21,7 +21,12 @@ $arr = [
     'December'
 ];
 
+$month = date('F');
+
 foreach ($arr as $item) {
-    $month = $arr[]
-    echo $item . '<br>';
+    if ($month == $item) {
+        echo '<strong>' . $item . '</strong><br>';
+    } else {
+        echo $item . '<br>';
+    }
 }
